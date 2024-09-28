@@ -2,28 +2,6 @@
 
 This project demonstrates a simple web application with two versions: a vulnerable version and a secure version. The application includes a login functionality and is designed to illustrate the risks of SQL Injection and how to mitigate them.
 
-## Project Structure
-
-### Main `README.md` (Root Folder):
-The main `README.md` file should provide an overview of the entire project structure and briefly explain what each folder contains. It should link to the detailed README files within the subfolders for more information.
-
-### `README.md` in Root Folder:
-SQLInjectionDemo/
-│
-├── vulnerable-code/
-│   ├── src/
-│   │   ├── LoginServlet.java   # Servlet code vulnerable to SQL Injection
-│   │   └── login.jsp           # JSP file for login page
-│   ├── screenshots/            # Screenshots showing SQL Injection in action
-│ 
-│
-├── secure-version/
-│   ├── src/
-│   │   ├── LoginServlet.java   # Secure Servlet code using PreparedStatement
-│   │   └── login.jsp           # JSP file for login page
-│   ├── screenshots/            # Screenshots showing the secure implementation
-
-
 ## Versions Included
 
 ### 1. Vulnerable Version
